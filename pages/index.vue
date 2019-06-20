@@ -4,13 +4,13 @@
     <v-layout column>
       <v-flex>
         <v-card flat color="light-green lighten-4">
-          <v-layout row>
-            <v-flex md4>
+          <v-layout row wrap>
+            <v-flex md4 xs12>
               <v-avatar :tile="false" :size="150" class="avatar">
                 <v-img :src="profileImage"></v-img>
               </v-avatar>
             </v-flex>
-            <v-flex md8>
+            <v-flex md8 xs12>
               <v-card-text>
                 <p class="display-1">Shumpei Koike</p>
                 <p class="subheading grey--text">Full stack developer</p>
@@ -136,7 +136,7 @@
           </p>
           <p>- Planned some new applications using a Blockchain and developed as PoC</p>
           <p>- Designed as microservices and building systems</p>
-          <p class="font-weight-regular grey--text">Solidity/Go/TypeScript/Nuxt/Kubernetes/Flutter/AWS</p>
+          <p class="grey--text">Solidity / Go / TypeScript / Nuxt / Kubernetes / Flutter / AWS</p>
         </v-card-text>
         <v-divider/>
         <v-card-text>
@@ -147,8 +147,8 @@
           <p>- Architected a whole system for enterprise</p>
           <p>- Created a coding rule of Java/JavaScript and reviewing</p>
           <p>- Investigated a Bitcoin/Ethereum/Ripple to connect our wallet system</p>
-          <p class="font-weight-regular grey--text">
-            SpringBoot/Node.js/Vue.js/Puppeteer/BitcoinCli/Geth/AWS(More than 30
+          <p class="grey--text">
+            SpringBoot / Node.js / Vue.js / Puppeteer / BitcoinCli / Geth / AWS(More than 30
             services including serverless)
           </p>
         </v-card-text>
@@ -159,7 +159,7 @@
           >DMM Bitcoin / Development Sub Lead / Simplex.Inc</p>
           <p class="subheading font-weight-regular font-italic grey--text">Aug.2017 - Dec.2017</p>
           <p>- Designed and developing some functions</p>
-          <p class="font-weight-regular grey--text">SpringFramework/Backbone.js/Ansible/Oracle/VMware</p>
+          <p class="font-weight-regular grey--text">SpringFramework / Backbone.js / Ansible / Oracle / VMware</p>
 
           <v-divider/>
         </v-card-text>
@@ -169,7 +169,7 @@
           >DMM Banusy / Development member / Simplex.Inc</p>
           <p class="subheading font-weight-regular font-italic grey--text">Aug.2016 - Jul.2017</p>
           <p>- Designed and developing some functions</p>
-          <p class="font-weight-regular grey--text">SpringBoot/Thymeleaf/React/Docker/MariaDB/AWS/DDD</p>
+          <p class="font-weight-regular grey--text">SpringBoot / Thymeleaf / React / Docker / MariaDB / AWS / DDD</p>
         </v-card-text>
         <v-divider/>
         <v-card-text>
@@ -178,7 +178,7 @@
           >Original EC System / Development member / Ginga Software Co.</p>
           <p class="subheading font-weight-regular font-italic grey--text">Sep.2015 - Mar.2016</p>
           <p>- Designed and developing some functions</p>
-          <p class="font-weight-regular grey--text">Struts2/MyBatis/jQuery/DBUnit/MySQL</p>
+          <p class="font-weight-regular grey--text">Struts2 / MyBatis / jQuery / DBUnit / MySQL</p>
         </v-card-text>
         <v-card-text>
           <p class="display-1 font-weight-regular green--text">Education and Training</p>
@@ -194,7 +194,7 @@
         </v-card-text>
         <v-card-text>
         <p class="subheading font-weight-regular green--text">Frontend</p>
-        <v-layout row>
+        <v-layout row wrap>
           <v-flex md12>
             <v-chip color="teal darken-4" text-color="white">
               <v-avatar>
@@ -236,7 +236,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Mobile</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-1" text-color="white">
                 <v-avatar>
@@ -258,7 +258,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Backend</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
@@ -290,7 +290,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Blockchain</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
@@ -317,7 +317,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Cloud</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
@@ -339,7 +339,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Container/Microservices</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
@@ -386,7 +386,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Protocol</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
@@ -408,7 +408,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">DevOps</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
@@ -450,7 +450,7 @@
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Database</p>
-          <v-layout row>
+          <v-layout row wrap>
             <v-flex md12>
               <v-chip color="teal darken-4" text-color="white">
                 <v-avatar>
