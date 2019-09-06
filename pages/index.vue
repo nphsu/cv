@@ -12,7 +12,7 @@
             </v-flex>
             <v-flex md8 xs12>
               <v-card-text>
-                <p class="display-1">Shumpei Koike</p>
+                <p class="display-1">Shumpei Koike2</p>
                 <p class="subheading grey--text">Full stack developer</p>
                 <p>
                   Professional Developer with more than four years of experience
