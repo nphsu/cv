@@ -40,34 +40,19 @@
                 </v-btn>
               </v-flex>
               <v-flex md4 sm6>
-                <v-btn
-                  flat
-                  small
-                  color="primary"
-                  href="https://www.facebook.com/shunpei.koike.9"
-                >
+                <v-btn flat small color="primary" href="https://www.facebook.com/shunpei.koike.9">
                   <v-img :src="facebookIcon" width="25"></v-img>
                   <span class="sns-label-wrapper">Facebook</span>
                 </v-btn>
               </v-flex>
               <v-flex md4 sm6>
-                <v-btn
-                  flat
-                  small
-                  color="primary"
-                  href="https://github.com/shunp"
-                >
+                <v-btn flat small color="primary" href="https://github.com/shunp">
                   <v-img :src="githubIcon" width="25"></v-img>
                   <span class="sns-label-wrapper">GitHub</span>
                 </v-btn>
               </v-flex>
               <v-flex md4 sm6>
-                <v-btn
-                  flat
-                  small
-                  color="primary"
-                  href="https://qiita.com/shunp"
-                >
+                <v-btn flat small color="primary" href="https://qiita.com/shunp">
                   <v-img :src="qiitaIcon" width="25"></v-img>
                   <span class="sns-label-wrapper">Qiita</span>
                 </v-btn>
@@ -84,12 +69,7 @@
                 </v-btn>
               </v-flex>
               <v-flex md4 sm6>
-                <v-btn
-                  flat
-                  small
-                  color="primary"
-                  href="https://speakerdeck.com/shunp"
-                >
+                <v-btn flat small color="primary" href="https://speakerdeck.com/shunp">
                   <v-img :src="linkedInIcon" width="25"></v-img>
                   <span class="sns-label-wrapper">SpeakerDeck</span>
                 </v-btn>
@@ -101,10 +81,10 @@
       <v-flex>
         <v-card-text>
           <p class="display-1 font-weight-regular green--text">SUMMARY</p>
-          <v-divider/>
+          <v-divider />
         </v-card-text>
         <v-card-text>
-          <p>- Experienced from backend to frontend widely</p>
+          <p>- Experienced from Back-end to Front-end widely</p>
           <p>
             - Architected and developed the cryptocurrency wallet system for
             enterprise
@@ -124,7 +104,7 @@
         </v-card-text>
         <v-card-text>
           <p class="display-1 font-weight-regular green--text">WORK EXPERIENCE</p>
-          <v-divider/>
+          <v-divider />
         </v-card-text>
         <v-card-text>
           <p class="title font-weight-regular green--text">Blockchain R&D / Tech Lead / Simplex.Inc</p>
@@ -138,7 +118,7 @@
           <p>- Designed as microservices and building systems</p>
           <p class="grey--text">Solidity / Go / TypeScript / Nuxt / Kubernetes / Flutter / AWS</p>
         </v-card-text>
-        <v-divider/>
+        <v-divider />
         <v-card-text>
           <p
             class="title font-weight-regular green--text"
@@ -152,16 +132,18 @@
             services including serverless)
           </p>
         </v-card-text>
-        <v-divider/>
+        <v-divider />
         <v-card-text>
           <p
             class="title font-weight-regular green--text"
           >DMM Bitcoin / Development Sub Lead / Simplex.Inc</p>
           <p class="subheading font-weight-regular font-italic grey--text">Aug.2017 - Dec.2017</p>
           <p>- Designed and developing some functions</p>
-          <p class="font-weight-regular grey--text">SpringFramework / Backbone.js / Ansible / Oracle / VMware</p>
+          <p
+            class="font-weight-regular grey--text"
+          >SpringFramework / Backbone.js / Ansible / Oracle / VMware</p>
 
-          <v-divider/>
+          <v-divider />
         </v-card-text>
         <v-card-text>
           <p
@@ -169,9 +151,11 @@
           >DMM Banusy / Development member / Simplex.Inc</p>
           <p class="subheading font-weight-regular font-italic grey--text">Aug.2016 - Jul.2017</p>
           <p>- Designed and developing some functions</p>
-          <p class="font-weight-regular grey--text">SpringBoot / Thymeleaf / React / Docker / MariaDB / AWS / DDD</p>
+          <p
+            class="font-weight-regular grey--text"
+          >SpringBoot / Thymeleaf / React / Docker / MariaDB / AWS / DDD</p>
         </v-card-text>
-        <v-divider/>
+        <v-divider />
         <v-card-text>
           <p
             class="title font-weight-regular green--text"
@@ -182,57 +166,101 @@
         </v-card-text>
         <v-card-text>
           <p class="display-1 font-weight-regular green--text">Education and Training</p>
-          <v-divider/>
+          <v-divider />
         </v-card-text>
         <v-card-text>
           <p>Bachelor of Science: B.E. Applied Electronics 2016</p>
           <p>TOKYO UNIVERSITY OF SCIENCE</p>
         </v-card-text>
         <v-card-text>
-          <p class="display-1 font-weight-regular green--text">SKILL</p>
-          <v-divider/>
-        </v-card-text>
-        <v-card-text>
-        <p class="subheading font-weight-regular green--text">Frontend</p>
-        <v-layout row wrap>
-          <v-flex md12>
+          <p class="display-1 font-weight-regular green--text">
+            SKILL
             <v-chip color="teal darken-4" text-color="white">
               <v-avatar>
                 <v-icon>check_circle</v-icon>
-              </v-avatar>Nuxt.js/Vue.js
-            </v-chip>
-            <v-chip color="teal lighten-3" text-color="white">
-              <v-avatar>
-                <v-icon>check_circle</v-icon>
-              </v-avatar>TypeScript
-            </v-chip>
-            <v-chip color="teal lighten-3" text-color="white">
-              <v-avatar>
-                <v-icon>check_circle</v-icon>
-              </v-avatar>jQuery
-            </v-chip>
-            <v-chip color="teal lighten-3" text-color="white">
-              <v-avatar>
-                <v-icon>check_circle</v-icon>
-              </v-avatar>React
-            </v-chip>
-            <v-chip color="teal lighten-3" text-color="white">
-              <v-avatar>
-                <v-icon>check_circle</v-icon>
-              </v-avatar>Aframe
-            </v-chip>
-            <v-chip color="teal lighten-3" text-color="white">
-              <v-avatar>
-                <v-icon>check_circle</v-icon>
-              </v-avatar>SCSS
+              </v-avatar>Better
             </v-chip>
             <v-chip color="teal darken-1" text-color="white">
               <v-avatar>
                 <v-icon>check_circle</v-icon>
-              </v-avatar>Material Design
+              </v-avatar>Good
             </v-chip>
-          </v-flex>
-        </v-layout>
+            <v-chip color="teal lighten-3" text-color="white">
+              <v-avatar>
+                <v-icon>check_circle</v-icon>
+              </v-avatar>I know
+            </v-chip>
+          </p>
+          <v-divider />
+        </v-card-text>
+        <v-card-text>
+          <p class="subheading font-weight-regular green--text">Frontend</p>
+          <v-layout row wrap>
+            <v-flex md12>
+              <v-chip color="teal darken-4" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Nuxt.js/Vue.js
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>TypeScript
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>jQuery
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>React
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Aframe
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>CSS/SCSS
+              </v-chip>
+              <v-chip color="teal darken-1" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Material Design
+              </v-chip>
+            </v-flex>
+          </v-layout>
+        </v-card-text>
+        <v-card-text>
+          <p class="subheading font-weight-regular green--text">XR</p>
+          <v-layout row wrap>
+            <v-flex md12>
+              <v-chip color="teal darken-1" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Blender
+              </v-chip>
+              <v-chip color="teal darken-1" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Verge3D
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Babylon.js
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Unity/C#
+              </v-chip>
+            </v-flex>
+          </v-layout>
         </v-card-text>
         <v-card-text>
           <p class="subheading font-weight-regular green--text">Mobile</p>
@@ -247,11 +275,6 @@
                 <v-avatar>
                   <v-icon>check_circle</v-icon>
                 </v-avatar>ARKit/Swift
-              </v-chip>
-              <v-chip color="teal lighten-3" text-color="white">
-                <v-avatar>
-                  <v-icon>check_circle</v-icon>
-                </v-avatar>Unity/C#
               </v-chip>
             </v-flex>
           </v-layout>
@@ -311,6 +334,11 @@
                 <v-avatar>
                   <v-icon>check_circle</v-icon>
                 </v-avatar>Ethereum2.0
+              </v-chip>
+              <v-chip color="teal lighten-3" text-color="white">
+                <v-avatar>
+                  <v-icon>check_circle</v-icon>
+                </v-avatar>Interoperability
               </v-chip>
             </v-flex>
           </v-layout>
@@ -496,15 +524,14 @@
 </template>
 
 <script>
-import ProfileImage from '~/assets/image/profile.jpg'
-import LinkedInIcon from '~/assets/icon/linkedin.svg'
-import FacebookIcon from '~/assets/icon/facebook.svg'
-import GitHubIcon from '~/assets/icon/github.svg'
-import QiitaIcon from '~/assets/icon/qiita.svg'
-import YouTubeIcon from '~/assets/icon/youtube.svg'
-import GmailIcon from '~/assets/icon/gmail.svg'
-import SlidesIcon from '~/assets/icon/slides.svg'
-
+import ProfileImage from "~/assets/image/profile.jpg";
+import LinkedInIcon from "~/assets/icon/linkedin.svg";
+import FacebookIcon from "~/assets/icon/facebook.svg";
+import GitHubIcon from "~/assets/icon/github.svg";
+import QiitaIcon from "~/assets/icon/qiita.svg";
+import YouTubeIcon from "~/assets/icon/youtube.svg";
+import GmailIcon from "~/assets/icon/gmail.svg";
+import SlidesIcon from "~/assets/icon/slides.svg";
 
 export default {
   components: {},
@@ -518,24 +545,24 @@ export default {
       youtubeIcon: YouTubeIcon,
       gmailIcon: GmailIcon,
       slidesIcon: SlidesIcon
-    }
+    };
   },
   created: function() {
-    if ('serviceWorker' in navigator) {
+    if ("serviceWorker" in navigator) {
       navigator.serviceWorker
-        .register('/serviceworker.js')
+        .register("/serviceworker.js")
         .then(registration => {
           registration.onupdatefound = function() {
-            console.log('update')
-            registration.update()
-          }
+            console.log("update");
+            registration.update();
+          };
         })
         .catch(err => {
-          console.err(err)
-        })
+          console.err(err);
+        });
     }
   }
-}
+};
 </script>
 <style scoped>
 .top {
